@@ -3,55 +3,36 @@
 /* example of button being styled using the selectors assigned to it in the script.js file */
 
 .buttons {
-    size: w=30px, h=10px;
-    margin: 10px;
-    padding: 5px;
-    border: none;
-    background-color: rgb(255, 253, 253);
-    color: rgb(0, 0, 0);
-    border-radius: 2.5px;
+  margin: 10px;
+  padding: 20px;
+  border: 1PX;
+  background-color: #7b37a3;
+  color: white;
+  border-radius: 2.5px;
 }
 
 
 .buttons:hover {
-    background-color: darkblue;
-    cursor: pointer;
+  background-color: lightblue;
+  cursor: pointer;
 }
 
-.canvas-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    background-color: rgb(255, 255, 255);
+#bottomTextInput {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+.buttons
+
+canvas {
+  border: 2px solid #ddd;
 }
 
 
-.primary-button {
-    background-color: #007bff;
-    color: rgb(224, 21, 21);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+.contaoner-one{
+position: relative;
+  top: 20px;
+  left: 30px;
 }
-
-.primary-button:hover {
-    background-color: #0056b3;
-}
-
-/* Style the text inputs */
-.text-input {
-    width: 100%;
-    padding: 5px;
-    font-size: 16px;
-    margin-bottom: 10px; /* Add spacing between text inputs */
-  }
-  
-/* Style for the control container */
-#column-one {
-    color: blue;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column; /* Arrange controls one below the other */
-}
+/* Use your own selectors [ids(#) and classes(.) for styling the input elements created in p5]  */
