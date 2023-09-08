@@ -7,7 +7,7 @@ let imageSelector;
 let selectedImage; 
 
 function setup() {
-  let can=createCanvas(700, 500);
+  let can=createCanvas(600, 500);
   can.parent('column-two');
 
 
